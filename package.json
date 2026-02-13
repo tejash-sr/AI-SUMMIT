@@ -1,0 +1,13 @@
+{
+  "name": "kavach",
+  "version": "1.0.0",
+  "description": "KAVACH AI honeypot for scam engagement and intelligence extraction",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/test-runner.js",
+    "lint": "node -e \"console.log('No linter configured')\""
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Hindi OTP scam",
+    "text": "Aapka SBI account band hoga. Abhi OTP share karo.",
+    "expect": {
+      "type": "otp_fraud"
+    }
+  },
+  {
+    "name": "Tamil bank freeze scam",
+    "text": "உங்கள் வங்கி கணக்கு முடக்கப்படும், உடனே சரிபார்க்கவும்",
+    "expect": {
+      "language": "tamil"
+    }
+  },
+  {
+    "name": "Phishing link",
+    "text": "Click this link now https://bit.ly/fake-verify",
+    "expect": {
+      "type": "phishing"
+    }
+  }
+]
